@@ -6,7 +6,7 @@
 const people = [
     {
         name: "Ralph",
-        age: 20,
+        age: 17,
         city: "Åre"
     },
     {
@@ -27,4 +27,7 @@ function printPersonInfo(person) {
     } else {
         console.log(person.name + " bor i " + person.city + " och är ej myndig.");
     }
+}
+for (let i = 0; i < people.length; i++) {
+    printPersonInfo(people[i]);
 }

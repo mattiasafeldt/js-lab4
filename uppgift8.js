@@ -10,5 +10,8 @@ const book = {
 };
 // Funktion som tar emot bokobjekt.
 function printBookInfo(bookDetails) {
-    
+    console.log("Titel: " + bookDetails.title);
+    console.log("Författare: " + bookDetails.author);
+    console.log("Utgivningsår: " + bookDetails.publicationYear);
 }
+printBookInfo(book);

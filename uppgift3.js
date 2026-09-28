@@ -3,11 +3,11 @@
 
 let age = 20;
 
-if (age < 18) {
+if (age < 18) { // Värdet under 18 = Barn.
     console.log("Barn");
-} else if (age < 65) {
+} else if (age < 65) { // Värdet under 65 = Vuxen.
     console.log("Vuxen");
-} else {
+} else { // Är värdet något annat = Pensionär.
     console.log("Pensionär");
     
 }

@@ -8,3 +8,7 @@ const book = {
     author: "Bent af Klintberg",
     publicationYear: 1986
 };
+// Funktion som tar emot bokobjekt.
+function printBookInfo(bookDetails) {
+    
+}

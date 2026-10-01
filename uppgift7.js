@@ -12,8 +12,7 @@ function calculateSum(values) { // Funktion som tar emot en array genom paramete
         i++: Ökar index med 1 efter varje varv. */
         sum = sum + values[i];
     }
-
-return sum; // Returnerar summan när loopen gått igenom talen.
+    return sum; // Returnerar summan när loopen gått igenom talen.
 }
 let total = calculateSum(numbers);
 console.log("Summan är " + total); // Skriver ut resultat i konsol.
